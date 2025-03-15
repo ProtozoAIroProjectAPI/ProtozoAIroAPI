@@ -76,6 +76,14 @@ A API será iniciada em `http://localhost:5000`.
 }
 ```
 
+## 🌐 Usando a API em Produção
+
+Você pode acessar a API em funcionamento sem precisar configurar nada:
+
+```bash
+https://protozoairoapi.up.railway.app/predict
+```
+
 ## 📊 Melhorias Futuras
 - Implementar autenticação via token
 
