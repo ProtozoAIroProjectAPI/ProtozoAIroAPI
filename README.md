@@ -92,5 +92,5 @@ https://protozoairoapi.up.railway.app/predict
 Este projeto está sob a licença **MIT**.
 ---
 
-💡 **ProtozoAIro** - Facilitando o diagnóstico automatizado da malária! ⚕️
+💡 **ProtozoAIro** - Pensou em malária, pensou em ProtozoAIro! ⚕️
 
