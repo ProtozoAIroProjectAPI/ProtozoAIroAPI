@@ -1,6 +1,9 @@
 # 🦟 ProtozoAIro
 
-**ProtozoAIro** é uma API de classificação de imagens que identifica se uma célula está parasitada ou não pelo protozoário da malária. Desenvolvida em **Python** com **Flask**, **Keras** e **TensorFlow**, ela recebe uma imagem em formato **Base64** e retorna um resultado indicando a presença ou ausência de parasitas. Para isso, foi treinada uma **rede neural convolucional (CNN) sequencial simples**. O modelo treinado foi salvo separadamente nos arquivos **`network.json`** (estrutura da rede) e **`weights.hdf5`** (pesos aprendidos).
+**ProtozoAIro** é uma API de classificação de imagens que identifica se uma célula está parasitada ou não pelo protozoário da malária. Desenvolvida em **Python** com **Flask**, **Keras** e **TensorFlow**, ela recebe uma imagem em formato **Base64** e retorna um resultado indicando a presença ou ausência de parasitas.
+
+Para isso, foi treinada uma **rede neural convolucional (CNN) sequencial simples**, cujo modelo final foi salvo em dois arquivos: `network.json` (que armazena a estrutura da rede) e `weights.hdf5` (que contém os pesos aprendidos). A **API carrega esses arquivos ao iniciar e utiliza o modelo treinado** para realizar a classificação das imagens recebidas.
+
 
 
 # 📁 Dataset Utilizado
@@ -29,13 +32,17 @@ O modelo foi treinado utilizando o dataset de células infectadas e não infecta
 # 📐 Diagramas UML
 -📌 Caso de Uso
 O diagrama de caso de uso ilustra as interações principais entre o usuário (cliente) e o sistema ProtozoAIro, incluindo o envio da imagem e o recebimento da classificação.
-<img src="" alt="Diagrama de Caso de Uso" width="400" height="300">
+<div align="center">
+  <img src="https://i.postimg.cc/2SmNbnfs/casodeusoprotozoairo.jpg" alt="Diagrama de Caso de Uso" width="400" height="300">
+</div>
 
 
 -📌 Fluxo de Dados
 O diagrama de fluxo de dados detalha o caminho percorrido pelos dados desde a requisição da imagem até o retorno da resposta com a classificação final.
 
-<img src="" alt="Diagrama de Fluxo de Dados" width="400" height="300">
+<div align="center">
+  <img src="" alt="Diagrama de Caso de Uso" width="400" height="300">
+</div>
 
 
 
