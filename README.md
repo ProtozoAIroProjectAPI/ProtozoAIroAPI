@@ -1,12 +1,43 @@
-# ProtozoAIro
+# 🦟 ProtozoAIro
 
-**ProtozoAIro** é uma API de classificação de imagens que identifica se uma célula está parasitada ou não pelo protozoário da malária. Desenvolvida em **Python** com **Flask**, **Keras** e **TensorFlow**, ela recebe uma imagem em formato **Base64** e retorna um resultado indicando a presença ou ausência de parasitas.
+**ProtozoAIro** é uma API de classificação de imagens que identifica se uma célula está parasitada ou não pelo protozoário da malária. Desenvolvida em **Python** com **Flask**, **Keras** e **TensorFlow**, ela recebe uma imagem em formato **Base64** e retorna um resultado indicando a presença ou ausência de parasitas. Para isso, foi treinada uma **rede neural convolucional (CNN) sequencial simples**. O modelo treinado foi salvo separadamente nos arquivos **`network.json`** (estrutura da rede) e **`weights.hdf5`** (pesos aprendidos).
+
+
+# 📁 Dataset Utilizado
+O modelo foi treinado utilizando o dataset de células infectadas e não infectadas por malária disponível no [Kaggle](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria), contendo **27.500 imagens** divididas igualmente entre as classes **parasitada** e **não parasitada**. Os dados foram separados da seguinte forma:
+
+- **Treinamento**: 70% dos dados  
+- **Teste**: 30% dos dados
+
+
+# 📊 Resultados do Modelo
+-**Acurácia**: 95,78%
+
+-**F1 Score**: 96,00%
+
+-**Recall**: 96,00%
+
+-**Precision**: 96,00%
 
 ## ✨ Funcionalidades
 
 - Receber uma imagem no formato **Base64**
 - Classificar a imagem em **parasitada** ou **não parasitada**
 - Retornar a probabilidade associada à classificação
+
+
+# 📐 Diagramas UML
+-📌 Caso de Uso
+O diagrama de caso de uso ilustra as interações principais entre o usuário (cliente) e o sistema ProtozoAIro, incluindo o envio da imagem e o recebimento da classificação.
+<img src="" alt="Diagrama de Caso de Uso" width="400" height="300">
+
+
+-📌 Fluxo de Dados
+O diagrama de fluxo de dados detalha o caminho percorrido pelos dados desde a requisição da imagem até o retorno da resposta com a classificação final.
+
+<img src="" alt="Diagrama de Fluxo de Dados" width="400" height="300">
+
+
 
 ## 👤 Requisitos
 
@@ -22,6 +53,7 @@ Para instalar as dependências:
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## 🚶‍♂️ Executando a API
 
@@ -86,10 +118,8 @@ https://protozoairoapi.up.railway.app/predict
 
 ## 📊 Melhorias Futuras
 - Implementar autenticação via token
+- Utilizar um servidor com maior capacidade de processamento.
 
-## 📍 Licença
-
-Este projeto está sob a licença **MIT**.
 ---
 
 💡 **ProtozoAIro** - Pensou em malária, pensou em ProtozoAIro! ⚕️
