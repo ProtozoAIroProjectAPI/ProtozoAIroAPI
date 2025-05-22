@@ -14,13 +14,13 @@ O modelo foi treinado utilizando o dataset de células infectadas e não infecta
 
 
 # 📊 Resultados do Modelo
--**Acurácia**: 95,78%
+- **Acurácia**: 95,78%
 
--**F1 Score**: 96,00%
+- **F1 Score**: 96,00%
 
--**Recall**: 96,00%
+- **Recall**: 96,00%
 
--**Precision**: 96,00%
+- **Precision**: 96,00%
 
 ## ✨ Funcionalidades
 
@@ -30,7 +30,7 @@ O modelo foi treinado utilizando o dataset de células infectadas e não infecta
 
 
 # 📐 Diagramas UML
--📌 Caso de Uso
+- 📌 **Caso de Uso**: 
 O diagrama de caso de uso ilustra as interações principais entre o usuário (cliente) e o sistema ProtozoAIro, incluindo o envio da imagem e o recebimento da classificação.
 <p align="center">
   <img src="https://i.postimg.cc/2SmNbnfs/casodeusoprotozoairo.jpg" alt="Diagrama de Caso de Uso" width="400" height="300" />
@@ -38,12 +38,12 @@ O diagrama de caso de uso ilustra as interações principais entre o usuário (c
 
 
 
--📌 Fluxo de Dados
-O diagrama de fluxo de dados detalha o caminho percorrido pelos dados desde a requisição da imagem até o retorno da resposta com a classificação final.
+- 📌 **Fluxo de Dados**: 
+O diagrama de fluxo de dados detalha o caminho percorrido pelos dados desde o envio da imagem até o retorno da resposta com a classificação final.
 
-<div align="center">
-  <img src="" alt="Diagrama de Caso de Uso" width="400" height="300">
-</div>
+<p align="center">
+  <img src="https://i.postimg.cc/Kztd8YHG/Diagrama-Fluxo.png" alt="Diagrama de Fluxo de Dados" width="400" height="300">
+</p>
 
 
 
