@@ -42,7 +42,7 @@ O diagrama de caso de uso ilustra as interações principais entre o usuário (c
 O diagrama de fluxo de dados detalha o caminho percorrido pelos dados desde o envio da imagem até o retorno da resposta com a classificação final.
 
 <p align="center">
-  <img src="https://i.postimg.cc/Kztd8YHG/Diagrama-Fluxo.png" alt="Diagrama de Fluxo de Dados" width="400" height="300">
+  <img src="https://i.postimg.cc/Kztd8YHG/Diagrama-Fluxo.png" alt="Diagrama de Fluxo de Dados" width="500" height="400">
 </p>
 
 
