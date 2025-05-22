@@ -30,7 +30,7 @@ O modelo foi treinado utilizando o dataset de células infectadas e não infecta
 
 
 # 📐 Diagramas UML
-- 📌 **Caso de Uso**: 
+- 🧑 **Caso de Uso**: 
 O diagrama de caso de uso ilustra as interações principais entre o usuário (cliente) e o sistema ProtozoAIro, incluindo o envio da imagem e o recebimento da classificação.
 <p align="center">
   <img src="https://i.postimg.cc/2SmNbnfs/casodeusoprotozoairo.jpg" alt="Diagrama de Caso de Uso" width="400" height="300" />
@@ -38,7 +38,7 @@ O diagrama de caso de uso ilustra as interações principais entre o usuário (c
 
 
 
-- 📌 **Fluxo de Dados**: 
+- 🎲 **Fluxo de Dados**: 
 O diagrama de fluxo de dados detalha o caminho percorrido pelos dados desde o envio da imagem até o retorno da resposta com a classificação final.
 
 <p align="center">
